@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}   
+
+
+/* css index*/
+#fondo{
+    background-color: black;
+}
+
+.gridContainer{
+display: grid;
+grid-template-columns: 100%;
+
+ 
+}
+
+.p1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+}
+
+.a{
+    color:rgb(5, 26, 26);
+    text-decoration: none;
+}
+
+.a2:hover{
+    background-color:chartreuse;
+}
+
+.li{
+    font-family: 'Koulen', cursive;
+    display: inline;
+    margin: 0 10px;
+}
+
+
+.nav{
+    background-color: cadetblue;
+    padding-top: 20px;
+    padding-bottom: 10px;   
+}
+
+.ul{
+    text-align: end;
+    font-size: 20px;
+}
+
+.logo{
+    width: 80px;
+    position:absolute;
+    top: 53px;
+    
+}
+
+
+.logoXbox{
+    width: 200px;
+    
+}
+
+.logoPc{
+    width: 200px;
+    
+}
+
+.logoPs{
+    width: 200px;
+}
+
+.footer{
+    display: flex;
+    padding: 25px;
+}
+
+.footer div{
+    margin:12rem;
+    margin-right: 50px;
+}
+
+
+/*css formulario*/
+
+.registro{
+    width: 400px;
+    background:darkslategray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calabri';
+    color: white;
+    box-shadow: 4px 4px 30px white;
+    }
+
+.registro h4{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+.campos{
+        width: 100%;
+        background:darkslategray;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        border: solid white;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: white;
+        
+    }
+
+
+
+.registro .boton{
+    width: 100%;
+    background:cadetblue;
+    border: none;
+    padding: 1px;
+    color:white;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family:'Koulen', cursive;
+}
+
+/*css pc.html*/
+
+.vistas{
+    display: flex;
+    padding: 25px;
+    
+}
+
+.vistas article{
+    background-color:cadetblue;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'calibri';
+}
+.vistas li{
+    margin-bottom: 3px;
+    margin-left: 20px;
+    
+}
+.titulos{
+    text-align: center;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+
+.vistas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: auto;
+}
+
+
+/*medias queries*/
+@media screen and (max-width: 400px)
+{    
+    .logo{
+        display: none;
+    }
+
+    .gridContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300%;
+        margin: 0%;
+    }
+    .footer{
+      display: contents;
+      
+    }
+
+    .registro{
+        width:auto;
+        
+    }
+
+    .p1{
+        text-align: center;
+    }
+
+    .vistas{
+        display:contents;
+        width: auto;
+    }
+
+    .titulos{
+        text-align: center;
+    }
+    
+
+    
+}
+    
+@media screen and (max-width: 600px){
+    .p1{
+        text-align: center;
+    }
+
+    .footer{
+        display: contents;
+        
+      }
+      
+    
+    .logo{
+        display: none;
+        }
+    .ul{
+        text-align: center;
+        position: relative;
+    }
+
+    .vistas{
+        display:contents;
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 1422px){
+    .vistas{
+        display:contents;
+        width: auto;
+    }
+}
