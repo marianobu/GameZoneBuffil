@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" id="fondo">
+<html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,58 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <title>GameZone</title>
 </head>
-<body>
-    <div class="bg-1">
-        <h1 class="t-stroke t-shadow">GameZone</h1>
+<body id="fondo">
+    <div class="titulo">
+        <h1 class="ani1 ani2">GameZone</h1>
      </div>
 <header>
-    <nav class="nav">
-        <a href="./index.html"><img class="logo" src="./assets/image2.png" alt="Logo de mando de consola"alt=""></a>
-            <ul class="ul">
-                <li class="li"><a class="a a2" href="./vistas/formulario.html">Registrate</a></li>
-                <li class="li"> <a class="a a2" href="./vistas/pc.html">Pc</a></li>
-                <li class="li"><a class="a a2" href="./vistas/ps4.html">PlayStation</a></li>
-                <li class="li"><a class="a a2" href="./vistas/xbox.html">Xbox</a></li>
+    <nav class="navbar navbar-expand-lg colorNav">
+        <div class="container-fluid">
+          <a href="./index.html"><img class="log img-fluid" src="./assets/image2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link fonts" aria-current="page" href="./vistas/formulario.html">Resgistrate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonts" href="./vistas/pc.html">Pc</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonts" href="./vistas/ps4.html">PlayStation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonts" href="./vistas/xbox.html"">Xbox</a>
+              </li>
             </ul>
-    </nav>
-    
+          </div>
+        </div>
+      </nav>
+
 </header>
 
 <main class="gridContainer">
     <p class="p1">Bienvenido a <strong>Game Zone</strong> la comunidad de videosjuegos donde vas a poder informarte sobre cuales son algunos de los juegos que mas se destacan segun su plataforma</p>
 </main>
 
-<footer class="footer">
-    <div>
-        <a href="./vistas/pc.html"><img class="logoPc" src="/assets/pc.png" alt=""></a>
-    </div>
-    <div>   
-        <a href="./vistas/ps4.html"><img class="logoPs" src="/assets/pslogo.png" alt=""></a>
-    </div>
-    <div>
-        <a href="./vistas/xbox.html"><img class="logoXbox" src="/assets/xbox.PNG" alt=""></a>    
+<footer class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="./vistas/pc.html"><img class="logoPc" src="/assets/pc.png" alt=""></a>
+        </div>
+        <div class="col-md-4">   
+            <a href="./vistas/ps4.html"><img class="logoPs" src="/assets/pslogo.png" alt=""></a>
+        </div>
+        <div class="col-md-4">
+            <a href="./vistas/xbox.html"><img class="logoXbox" src="/assets/xbox.PNG" alt=""></a>    
+        </div>
     </div>
 </footer>
 
  
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
 

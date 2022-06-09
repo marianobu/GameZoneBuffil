@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" id="fondo">
+<html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +11,35 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Primer Desafio</title>
 </head>
-<body>
-    <center><h1 class="p1">Game Zone</h1></center>
+<body  id="fondo">
+    <div class="titulo">
+        <h1 class="ani1 ani2">GameZone</h1>
+    </div>
 <header>
-    <nav class="nav">
-        <a href="../index.html"><img class="logo" src="../assets/image2.png" alt="Logo de mando de consola" alt="" ></a>
-    <ul class="ul">
-        <li class="li"><a class="a a2" href="../index.html">Inicio</a></li>
-        <li class="li"><a class="a a2" href="./formulario.html">Registrate</a></li>
-        <li class="li"><a class="a a2" href="./pc.html">Pc</a></li>
-        <li class="li"><a class="a a2" href="./ps4.html">PlayStation</a></li>
-    </ul>
-    </nav>  
+    <nav class="navbar navbar-expand-lg colorNav">
+        <div class="container-fluid">
+          <a href="../index.html"><img class="log img-fluid" src="../assets/image2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link fonts" href="../index.html"">Inicio</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link fonts" aria-current="page" href="../vistas/formulario.html">Resgistrate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonts" href="../vistas/pc.html">Pc</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonts" href="../vistas/ps4.html">PlayStation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 
 <section class="vistas">
@@ -59,6 +77,6 @@
 </section>
 
  
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

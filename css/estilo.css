@@ -5,13 +5,15 @@
 }   
 
 /*efecto del titulo*/
-.bg-1{
+.titulo{
     background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
     text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 21px;
    
  }
  
- .t-stroke {
+ .ani1 {
    color: transparent;
    -moz-text-stroke-width: 1px;
    -webkit-text-stroke-width: 1px;
@@ -19,7 +21,7 @@
    -webkit-text-stroke-color: #ffffff;
  }
  
- .t-shadow {
+ .ani2 {
    text-shadow: 5px 5px #8dffcd;
  }
 
@@ -32,43 +34,27 @@
 .gridContainer{
 display: grid;
 grid-template-columns: 100%;
-
+color: white;
+font-family: 'Koulen';
+font-size: 30px;
  
 }
 
-.a{
-    color:rgb(5, 26, 26);
-    text-decoration: none;
+
+.log{
+    max-width: 100px;
 }
 
-.a2:hover{
+.colorNav{
+    background-color:cadetblue ;
+}
+
+.fonts:hover{
+    font-family: 'Koulen', cursive;
+    color:black;
     background-color:chartreuse;
 }
 
-.li{
-    font-family: 'Koulen', cursive;
-    display: inline;
-    margin: 0 10px;
-}
-
-
-.nav{
-    background-color: cadetblue;
-    padding-top: 20px;
-    padding-bottom: 10px;   
-}
-
-.ul{
-    text-align: end;
-    font-size: 20px;
-}
-
-.logo{
-    width: 80px;
-    position:absolute;
-    top: 35px;
-    
-}
 
 
 .logoXbox{
@@ -131,7 +117,7 @@ grid-template-columns: 100%;
 
 
 
-.registro .boton{
+.boton{
     width: 100%;
     background:cadetblue;
     border: none;
@@ -147,6 +133,7 @@ grid-template-columns: 100%;
 .vistas{
     display: flex;
     padding: 25px;
+    justify-content: baseline;
     
 }
 
@@ -168,12 +155,6 @@ grid-template-columns: 100%;
     text-align: center;
 }
 
-.grids{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-
-}
 
 .vistas{
     display: grid;
@@ -195,6 +176,7 @@ grid-template-columns: 100%;
         width: 100%;
         height: 300%;
         margin: 0%;
+        text-align:start;
     }
     .footer{
       display: contents;
@@ -207,7 +189,7 @@ grid-template-columns: 100%;
     }
 
     .p1{
-        text-align: center;
+        text-align:start;
     }
 
     .vistas{
