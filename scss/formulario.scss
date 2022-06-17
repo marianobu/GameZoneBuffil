@@ -1,0 +1,46 @@
+/*css formulario*/
+$blanquito: white;
+
+.registro{
+    width: 400px;
+    background:darkslategray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calabri';
+    color: $blanquito;
+    box-shadow: 4px 4px 30px $blanquito;
+    }
+
+.registro h4{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+.campos{
+        width: 100%;
+        background:darkslategray;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        border: solid $blanquito;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: $blanquito;
+        
+    }
+
+
+
+.boton{
+    width: 100%;
+    background:cadetblue;
+    border: none;
+    padding: 1px;
+    color:$blanquito;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family:'Koulen', cursive;
+}
