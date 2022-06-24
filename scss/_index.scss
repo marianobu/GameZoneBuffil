@@ -1,0 +1,49 @@
+/* css index*/
+$azul:cadetblue;
+
+#fondo{
+    background-color: black;
+}
+
+.log{
+    max-width: 100px;
+}
+.colorNav{
+    background-color: $azul;
+}
+.fonts:hover{
+    font-family: 'Koulen', cursive;
+    color:black;
+    background-color:chartreuse;
+}
+
+.footer {
+	display: flex;
+	padding: 25px;
+	div {
+		margin: 12rem;
+		margin-right: 50px;
+	}
+}
+
+/*mixin*/
+
+@mixin logos {
+	width: 200px;	
+}
+
+.logoXbox, .logoPs, .logoPc {
+	@include logos;
+}
+
+@mixin gContainer {
+	display: grid;
+	grid-template-columns: 100%;
+	color: white;
+	font-family: 'Koulen';
+	font-size: 30px;	
+}
+
+.gridContainer{
+	@include gContainer;
+}

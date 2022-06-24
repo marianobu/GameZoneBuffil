@@ -1,30 +1,76 @@
 /*estiolos de sass*/
+/*efecto del titulo*/
+.titulo {
+  background: linear-gradient(to right, #614385, #516395);
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 21px; }
+
+.ani1 {
+  color: transparent;
+  -moz-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+  -moz-text-stroke-color: black;
+  -webkit-text-stroke-color: #ffffff; }
+
+.ani2 {
+  text-shadow: 5px 5px #8dffcd; }
+
+/* css index*/
+#fondo {
+  background-color: black; }
+
+.log {
+  max-width: 100px; }
+
+.colorNav {
+  background-color: cadetblue; }
+
+.fonts:hover {
+  font-family: 'Koulen', cursive;
+  color: black;
+  background-color: chartreuse; }
+
+.footer {
+  display: flex;
+  padding: 25px; }
+  .footer div {
+    margin: 12rem;
+    margin-right: 50px; }
+
+/*mixin*/
+.logoXbox, .logoPs, .logoPc {
+  width: 200px; }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  color: white;
+  font-family: 'Koulen';
+  font-size: 30px; }
+
 /*scss par las vistas*/
 .vistas {
   display: flex;
   padding: 25px;
-  justify-content: baseline; }
-
-.vistas article {
-  background-color: cadetblue;
-  margin: 1rem;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'calibri'; }
-
-.vistas li {
-  margin-bottom: 3px;
-  margin-left: 20px; }
-
-.titulos {
-  text-align: center; }
-
-.vistas {
+  justify-content: baseline;
   display: grid;
   grid-template-columns: auto auto auto;
   width: auto; }
+  .vistas article {
+    background-color: cadetblue;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'calibri'; }
+  .vistas li {
+    margin-bottom: 3px;
+    margin-left: 20px; }
+
+.titulos {
+  text-align: center; }
 
 /*css formulario*/
 .registro {
@@ -63,67 +109,6 @@
   margin: 15px 0;
   font-size: 20px;
   font-family: 'Koulen', cursive; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-/*efecto del titulo*/
-.titulo {
-  background: linear-gradient(to right, #614385, #516395);
-  text-align: center;
-  margin-bottom: 0.5rem;
-  font-size: 21px; }
-
-.ani1 {
-  color: transparent;
-  -moz-text-stroke-width: 1px;
-  -webkit-text-stroke-width: 1px;
-  -moz-text-stroke-color: black;
-  -webkit-text-stroke-color: #ffffff; }
-
-.ani2 {
-  text-shadow: 5px 5px #8dffcd; }
-
-/* css index*/
-#fondo {
-  background-color: black; }
-
-.gridContainer {
-  display: grid;
-  grid-template-columns: 100%;
-  color: white;
-  font-family: 'Koulen';
-  font-size: 30px; }
-
-.log {
-  max-width: 100px; }
-
-.colorNav {
-  background-color: cadetblue; }
-
-.fonts:hover {
-  font-family: 'Koulen', cursive;
-  color: black;
-  background-color: chartreuse; }
-
-.logoXbox {
-  width: 200px; }
-
-.logoPc {
-  width: 200px; }
-
-.logoPs {
-  width: 200px; }
-
-.footer {
-  display: flex;
-  padding: 25px; }
-
-.footer div {
-  margin: 12rem;
-  margin-right: 50px; }
 
 /*medias queries*/
 @media screen and (max-width: 400px) {

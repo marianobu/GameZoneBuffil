@@ -1,5 +1,7 @@
 /*css formulario*/
 $blanquito: white;
+$azul:cadetblue;
+
 
 .registro{
     width: 400px;
@@ -36,7 +38,7 @@ $blanquito: white;
 
 .boton{
     width: 100%;
-    background:cadetblue;
+    background: $azul;
     border: none;
     padding: 1px;
     color:$blanquito;
