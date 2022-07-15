@@ -38,8 +38,17 @@
     margin: 12rem;
     margin-right: 50px; }
 
+.tituloVideo {
+  color: white;
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Koulen'; }
+
 /*mixin*/
 .logoXbox, .logoPs, .logoPc {
+  margin-left: 25%;
+  margin-top: 50px;
   width: 200px; }
 
 .gridContainer {
@@ -112,8 +121,6 @@
 
 /*medias queries*/
 @media screen and (max-width: 400px) {
-  .logo {
-    display: none; }
   .gridContainer {
     display: flex;
     flex-direction: column;
@@ -121,31 +128,10 @@
     height: 300%;
     margin: 0%;
     text-align: start; }
-  .footer {
-    display: contents; }
   .registro {
     width: auto; }
   .p1 {
-    text-align: start; }
-  .vistas {
-    display: contents;
-    width: auto; }
-  .titulos {
-    text-align: center; } }
-
-@media screen and (max-width: 600px) {
-  .p1 {
-    text-align: center; }
-  .footer {
-    display: contents; }
-  .logo {
-    display: none; }
-  .ul {
-    text-align: center;
-    position: relative; }
-  .vistas {
-    display: contents;
-    width: auto; } }
+    text-align: start; } }
 
 @media screen and (max-width: 1422px) {
   .vistas {

@@ -26,9 +26,19 @@ $azul:cadetblue;
 	}
 }
 
+.tituloVideo{
+	color: white;
+	margin-top: 50px;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Koulen';
+}
+
 /*mixin*/
 
 @mixin logos {
+	margin-left: 25%;
+	margin-top: 50px;
 	width: 200px;	
 }
 
